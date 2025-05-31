@@ -1,11 +1,13 @@
-import { Button, HStack } from "@chakra-ui/react";
+import { Box, Button, VStack, Input, Center } from "@chakra-ui/react";
+import { FormControl, FormLabel } from "@chakra-ui/form-control";
 
 const Dashboard = () => {
     return (
-        <HStack spacing={4}>
-            <Button colorScheme="blue">Click me</Button>
-            <Button colorScheme="green">Click me</Button>
-        </HStack>
+        <Box
+            minH="100vh"
+            bgGradient="linear-gradient(to left top, #FCEBB8 50%, white 100%)"
+        >
+        </Box>
     );
 };
 
