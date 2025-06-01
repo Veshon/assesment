@@ -11,6 +11,7 @@ import Summary from "./components/Layout/Summuary";
 import UsersOnline from "./components/Layout/Summary/UsersOnline";
 import DailyLogins from "./components/Layout/Summary/DailyLogins";
 import Permissions from "./components/Layout/Summary/Permissions";
+import Status from "./components/Layout/Status";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
             <UsersOnline/>
             <DailyLogins/>
             <Permissions/>
+            <Status/>
         </Provider>
     );
 }
