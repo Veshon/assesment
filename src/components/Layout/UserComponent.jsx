@@ -1,17 +1,57 @@
-import {Box} from "@chakra-ui/react";
+import {Box, Stack, Text} from "@chakra-ui/react";
+import loggedUser from "../Assets/images/loggedUser.png";
 
 const UserComponent = () => {
     return (
         <Box width="270px"
              height="417px"
-             bgColor="#F8F8EF"
              position="absolute"
              top="311px"
              left="31px"
              borderRadius="50px"
              bg="#F8F8EF"
-             opacity="60%"
+             backgroundImage={`url(${loggedUser})`}
+             backgroundSize="cover"
+             backgroundPosition="center"
+             backgroundRepeat="no-repeat"
+             flexDirection="column"
+             justifyContent="center"
+             pl="5px"
         >
+
+            <Stack
+                width="260px"
+                height="77px"
+                bg="rgba(255, 255, 255, 0.3)"
+                borderRadius="50px 50px 50px 50px"
+                position="relative"
+                top="335px"
+                justifyContent="center"
+                alignItems="flex-start"
+                direction="column"
+                pt="10px"
+                pl="26px"
+            >
+                <Text
+                    color="#222222"
+                    fontFamily="Mulish"
+                    fontWeight="bold"
+                    fontSize="20px"
+                    lineHeight="1" // Tighter line spacing
+                >
+                    Emma Rodrigo
+                </Text>
+
+                <Text
+                    color="#4B4B4B"
+                    fontFamily="Mulish"
+                    fontWeight="bold"
+                    fontSize="20px"
+                    mt="-8px" // Negative margin to reduce gap
+                >
+                    Project Manager
+                </Text>
+            </Stack>
         </Box>
     );
 };
