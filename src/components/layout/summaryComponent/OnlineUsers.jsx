@@ -1,6 +1,6 @@
 import {Flex, Image, Text} from "@chakra-ui/react";
 
-const UsersOnline = () => {
+const OnlineUsers = () => {
     return (
 
     <Flex
@@ -48,4 +48,4 @@ const UsersOnline = () => {
     );
 };
 
-export default UsersOnline;
+export default OnlineUsers;

@@ -1,12 +1,12 @@
 import {Box, Text, Flex} from "@chakra-ui/react";
-import user1 from "../Assets/images/user1.png";
-import user2 from "../Assets/images/user2.png";
-import user3 from "../Assets/images/user3.png";
-import user4 from "../Assets/images/user4.png";
-import user5 from "../Assets/images/user5.png";
-import user6 from "../Assets/images/user6.png";
+import user1 from "../assets/images/user1.png";
+import user2 from "../assets/images/user2.png";
+import user3 from "../assets/images/user3.png";
+import user4 from "../assets/images/user4.png";
+import user5 from "../assets/images/user5.png";
+import user6 from "../assets/images/user6.png";
 
-const UserActivityTracker = () => {
+const UserTracker = () => {
     return (
             <Box width="728px"
                  height="419px"
@@ -338,4 +338,4 @@ const UserActivityTracker = () => {
     );
 };
 
-export default UserActivityTracker;
+export default UserTracker;

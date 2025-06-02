@@ -1,5 +1,5 @@
 import {Box, Button, Image} from "@chakra-ui/react";
-import notificationIcon from "../Assets/images/notificationIcon.png";
+import notificationIcon from "../assets/images/notificationIcon.png";
 
 const Navbar = () => {
     return (

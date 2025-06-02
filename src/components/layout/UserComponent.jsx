@@ -1,5 +1,5 @@
 import {Box, Stack, Text} from "@chakra-ui/react";
-import loggedUser from "../Assets/images/loggedUser.png";
+import loggedUser from "../assets/images/loggedUser.png";
 
 const UserComponent = () => {
     return (

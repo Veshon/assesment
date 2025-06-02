@@ -1,7 +1,7 @@
 import {Box, Flex, Spacer, Text, VStack} from "@chakra-ui/react";
-import profilePic1 from "../Assets/images/profilePic1.png";
-import profilePic2 from "../Assets/images/profilePic2.png";
-import profilePic3 from "../Assets/images/profilePic3.png";
+import profilePic1 from "../assets/images/profilePic1.png";
+import profilePic2 from "../assets/images/profilePic2.png";
+import profilePic3 from "../assets/images/profilePic3.png";
 
 const ActivityLog = () => {
     return (
