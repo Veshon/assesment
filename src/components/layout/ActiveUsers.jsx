@@ -158,7 +158,7 @@ const ActiveUsers = () => {
                         fontFamily="Mulish"
                         color="black"
                     >
-                        Smal
+                        SMAL
                     </Text>
                     <Text
                         fontSize="14px"

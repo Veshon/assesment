@@ -1,4 +1,4 @@
-import {Box, Flex, Spacer, Text, VStack} from "@chakra-ui/react";
+import {Box, Button, Flex, Spacer, Text, VStack} from "@chakra-ui/react";
 import profilePic1 from "../assets/images/profilePic1.png";
 import profilePic2 from "../assets/images/profilePic2.png";
 import profilePic3 from "../assets/images/profilePic3.png";
@@ -24,6 +24,38 @@ const ActivityLog = () => {
                 >
                     Activity Log
                 </Text>
+                <Flex justifyContect="center">
+                    <Button
+                        w="20px"
+                        h="20px"
+                        border="2px solid #F8F8EF"
+                        bg="#F8F8EF"
+                        borderRadius="100%"
+                        backgroundImage="url(https://img.icons8.com/?size=100&id=59878&format=png&color=000000)"
+                        backgroundSize="cover"
+                        backgroundPosition="center"
+                        backgroundRepeat="no-repeat"
+                        position="absolute"
+                        left="404px"
+                        p={0}
+                        minW="20px"
+                    />
+                    <Button
+                        w="20px"
+                        h="20px"
+                        border="2px solid #F8F8EF"
+                        bg="#F8F8EF"
+                        borderRadius="100%"
+                        backgroundImage="url(https://img.icons8.com/?size=100&id=18636&format=png&color=000000)"
+                        backgroundSize="cover"
+                        backgroundPosition="center"
+                        backgroundRepeat="no-repeat"
+                        position="absolute"
+                        left="442px"
+                        p={0}
+                        minW="20px"
+                    />
+                </Flex>
             </Box>
 
             <VStack align="flex-start" pl="35px">
