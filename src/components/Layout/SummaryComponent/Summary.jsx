@@ -106,7 +106,7 @@ const Summary = () => {
             left="554px"
             borderRadius="50px"
             bg="rgba(248, 248, 239, 0.6)"
-            p={6} // Add padding
+            p={5}
         >
             <Bar data={data} options={options} />
         </Box>
