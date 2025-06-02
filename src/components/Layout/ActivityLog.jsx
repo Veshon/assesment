@@ -6,11 +6,11 @@ import profilePic3 from "../Assets/images/profilePic3.png";
 const ActivityLog = () => {
     return (
         <Flex width="514px"
-             height="348px"
-             position="absolute"
-             top="740px"
-             left="31px"
-             borderRadius="50px"
+              height="348px"
+              position="absolute"
+              top="740px"
+              left="31px"
+              borderRadius="50px"
               bg="rgba(248, 248, 239, 0.6)"
               flexDirection="column"
         >
@@ -60,7 +60,7 @@ const ActivityLog = () => {
                             <Spacer mb="-13px" />
                             <Box w="110px" h="19px" borderRadius="5px" display="flex" alignItems="center" justifyContent="center" bg="#DBEAFE" fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="#1D4ED8">Permission change</Box>
                             <Spacer mb="-13px" />
-                            <Text fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="black">2hrs ago</Text>
+                            <Text fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="black">4hrs ago</Text>
                         </VStack>
                     </Flex>
 
@@ -80,7 +80,7 @@ const ActivityLog = () => {
                             <Spacer mb="-13px" />
                             <Box w="110px" h="19px" borderRadius="5px" display="flex" alignItems="center" justifyContent="center" bg="#DBEAFE" fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="#1D4ED8">Permission change</Box>
                             <Spacer mb="-13px" />
-                            <Text fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="black">2hrs ago</Text>
+                            <Text fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="black">8hrs ago</Text>
                         </VStack>
                     </Flex>
 
@@ -89,15 +89,15 @@ const ActivityLog = () => {
                     <Flex w="auto" h="auto" alignItems="center">
                         <Box w="42px" h="42px"
                              borderRadius="100%"
-                             backgroundImage={`url(https://plus.unsplash.com/premium_photo-1674055047918-87672ee689f5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`}
+                             backgroundImage={`url(https://images.unsplash.com/photo-1520699713260-70e01f7c2998?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`}
                              backgroundSize="cover"
                              backgroundPosition="center"
                              backgroundRepeat="no-repeat"
                         ></Box>
                         <VStack align="flex-start" pl="10px">
-                            <Text fontWeight="bold" fontFamily="Mulish" fontSize="13px" color="black">Emma Successfully logged in</Text>
+                            <Text fontWeight="bold" fontFamily="Mulish" fontSize="13px" color="black">Emily Successfully logged in</Text>
                             <Spacer mb="-13px" />
-                            <Text fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="black">2hrs ago</Text>
+                            <Text fontWeight="medium" fontFamily="Mulish" fontSize="12px" color="black">20hrs ago</Text>
                         </VStack>
                     </Flex>
 

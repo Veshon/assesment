@@ -7,7 +7,7 @@ import UserActivityTracker from "./components/Layout/UserActivityTracker";
 import UserComponent from "./components/Layout/UserComponent";
 import ActiveUsers from "./components/Layout/ActiveUsers";
 import ActivityLog from "./components/Layout/ActivityLog";
-import Summary from "./components/Layout/Summuary";
+import Summary from "./components/Layout/Summary";
 import UsersOnline from "./components/Layout/Summary/UsersOnline";
 import DailyLogins from "./components/Layout/Summary/DailyLogins";
 import Permissions from "./components/Layout/Summary/Permissions";

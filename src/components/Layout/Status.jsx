@@ -63,12 +63,12 @@ const status = () => {
                  <Flex alignItems="center">
                      <Image
                          rounded="md"
-                         width="24px"
-                         height="24px"
+                         width="24.74px"
+                         height="24.74px"
                          src="https://cdn-icons-png.freepik.com/256/9327/9327825.png?ga=GA1.1.1370232641.1740800375&semt=ais_hybrid"
                          alt="User Icon"
                          position="absolute"
-                         left="170px"
+                         left="160px"
                      />
                      <Text color="black" fontFamily="Mulish" fontSize="40px" fontWeight="light">671</Text>
                  </Flex>
@@ -98,7 +98,7 @@ const status = () => {
                          src="https://img.icons8.com/?size=100&id=16153&format=png&color=000000"
                          alt="User Icon"
                          position="absolute"
-                         left="345px"
+                         left="335px"
                      />
                      <Text color="black" fontFamily="Mulish" fontSize="40px" fontWeight="light">301</Text>
                  </Flex>
