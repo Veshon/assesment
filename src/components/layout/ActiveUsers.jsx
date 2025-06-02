@@ -1,6 +1,10 @@
 import {Box, Text, Flex, Grid} from "@chakra-ui/react";
 import { BarSegment, useChart } from "@chakra-ui/charts";
 import { AbsoluteCenter, For, HStack, ProgressCircle } from "@chakra-ui/react"
+import { Chart } from "@chakra-ui/charts"
+import { Pie, PieChart } from "recharts"
+import { Cell, LabelList, Tooltip } from "recharts"
+
 
 const ActiveUsers = () => {
     const chart = useChart({
@@ -15,7 +19,7 @@ const ActiveUsers = () => {
     return (
         <Box
             width="364px"
-            height="486px"
+            height="779px"
             position="absolute"
             top="309px"
             right="31px"
@@ -23,7 +27,7 @@ const ActiveUsers = () => {
             bg="rgba(248, 248, 239, 0.6)"
             p="30px"
         >
-            <Flex justify="space-between" mb="40px"> {/* Add margin bottom to separate from chart */}
+            <Flex justify="space-between" mb="40px">
                 <Text
                     fontSize="20px"
                     fontWeight="semibold"
@@ -53,11 +57,39 @@ const ActiveUsers = () => {
                 </BarSegment.Root>
             </Box>
 
+            <Box position="absolute" top="210px" botton="0px" right="0px" left="0px" margin="auto">
+                <Chart.Root boxSize="320px" mx="auto" chart={chart}>
+                    <PieChart>
+                        <Tooltip
+                            cursor={false}
+                            animationDuration={100}
+                            content={<Chart.Tooltip hideLabel />}
+                        />
+                        <Pie
+                            isAnimationActive={false}
+                            data={chart.data}
+                            dataKey={chart.key("value")}
+                        >
+                            <LabelList position="inside" fill="white" stroke="none"
+                                       style={{
+                                           fontSize: '14px',
+                                           fontWeight: 'medium',
+                                           fontFamily: 'Mulish',
+                                       }}
+                            />
+                            {chart.data.map((item) => (
+                                <Cell key={item.name} fill={chart.color(item.color)} />
+                            ))}
+                        </Pie>
+                    </PieChart>
+                </Chart.Root>
+            </Box>
+
             <Text w="auto"
                   h="auto"
                   color="black"
                   position="absolute"
-                  top="269px"
+                  top="550px"
                   fontSize="16px"
                   fontWeight="semibold"
                   fontFamily="Mulish"
@@ -74,7 +106,7 @@ const ActiveUsers = () => {
                 // px="30px"
                 placeItems="center"
                 position="absolute"
-                top="180px"
+                top="450px"
                 bottom="0"
                 right="0"
                 left="0"
