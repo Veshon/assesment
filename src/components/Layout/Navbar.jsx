@@ -13,7 +13,7 @@ const Navbar = () => {
              display="flex"
              alignItems="center"
              justifyContent="space-between"
-             px={4} // Horizontal padding
+             px={4}
         >
 
             {/* Dashboard btn */}

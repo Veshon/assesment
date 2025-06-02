@@ -12,6 +12,7 @@ import UsersOnline from "./components/Layout/Summary/UsersOnline";
 import DailyLogins from "./components/Layout/Summary/DailyLogins";
 import Permissions from "./components/Layout/Summary/Permissions";
 import Status from "./components/Layout/Status";
+import Test from "./components/TestDashboard";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
             <DailyLogins/>
             <Permissions/>
             <Status/>
+            {/*<Test/>*/}
         </Provider>
     );
 }

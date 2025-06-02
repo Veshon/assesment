@@ -79,8 +79,8 @@ const status = () => {
              </Box>
 
              {/* 3rd box */}
-             <Box width="142px"
-                  height="89px"
+             <Box width="auto"
+                  height="auto"
                   bg="transparent"
                   display="flex"
                   flexDirection="column"

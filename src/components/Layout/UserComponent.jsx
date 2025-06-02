@@ -35,9 +35,9 @@ const UserComponent = () => {
                 <Text
                     color="#222222"
                     fontFamily="Mulish"
-                    fontWeight="bold"
+                    fontWeight="semibold"
                     fontSize="20px"
-                    lineHeight="1" // Tighter line spacing
+                    lineHeight="1"
                 >
                     Emma Rodrigo
                 </Text>
@@ -45,9 +45,9 @@ const UserComponent = () => {
                 <Text
                     color="#4B4B4B"
                     fontFamily="Mulish"
-                    fontWeight="bold"
+                    fontWeight="semibold"
                     fontSize="20px"
-                    mt="-8px" // Negative margin to reduce gap
+                    mt="-8px"
                 >
                     Project Manager
                 </Text>
