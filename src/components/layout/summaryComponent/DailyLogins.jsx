@@ -4,17 +4,26 @@ const DailyLogins = () => {
     return (
 
     <Flex
-        width="134px"
+        width="130px"
         height="73px"
         position="absolute"
         top="740px"
-        left="723px"
+        // left="723px"
         borderRadius="25px"
         bg="rgba(248, 248, 239, 0.6)"
         justifyContent="center"
         alignItems="center"
         flexDirection="column"
-        px={4}
+        p={3}
+        pl={5}
+        display={{base: "block", md: "block", lg: "block", sm: "none"}}
+        left={{base: "723px", lg: "700px"}}
+        css={{
+            '@media (min-width: 1440px)': {
+                left: '723px',
+                width: '134px',
+            },
+        }}
     >
         <Flex position="relative" alignItems="center" justifyContent="center" width="100%">
             <Image

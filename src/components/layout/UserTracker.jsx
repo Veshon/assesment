@@ -12,10 +12,16 @@ const UserTracker = () => {
                  height="419px"
                  position="absolute"
                  top="309px"
-                 left="309px"
+                 // left="309px"
                  right="425.5px"
                  borderRadius="50px"
                  bg="rgba(248, 248, 239, 0.6)"
+                 left={{base: "309px", sm: "10px", md: "309px" , lg: "280px"}}
+                 css={{
+                     '@media (min-width: 1440px)': {
+                         left: '309px'
+                     },
+                 }}
             >
                 <Flex justifyContent="center" alignItems="center">
                     <Box width="79px"

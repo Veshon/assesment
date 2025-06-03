@@ -7,7 +7,7 @@ const UserComponent = () => {
              height="417px"
              position="absolute"
              top="311px"
-             left="31px"
+             // left="31px"
              borderRadius="50px"
              bg="#F8F8EF"
              backgroundImage={`url(${loggedUser})`}
@@ -17,6 +17,13 @@ const UserComponent = () => {
              flexDirection="column"
              justifyContent="center"
              pl="5px"
+             display={{base: "block", sm: "none", md: "block" , lg: "block"}}
+             left={{base: "31px", lg: "11px"}}
+             css={{
+                 '@media (min-width: 1440px)': {
+                     left: '31px'
+                 },
+             }}
         >
 
             <Stack

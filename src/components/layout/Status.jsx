@@ -8,8 +8,9 @@ const status = () => {
           height="89px"
           bg="transparent"
           position="absolute"
-          top="139px"
+          // top="139px"
           right="31px"
+          top={{base: "139px", sm: "200px", md: "161px" , lg: "161px"}}
      >
          {/* 3 Sub boxes */}
          <Flex

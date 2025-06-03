@@ -9,10 +9,16 @@ const ActivityLog = () => {
               height="348px"
               position="absolute"
               top="740px"
-              left="31px"
+              // left="31px"
               borderRadius="50px"
               bg="rgba(248, 248, 239, 0.6)"
               flexDirection="column"
+              left={{base: "31px", lg: "11px"}}
+              css={{
+                  '@media (min-width: 1440px)': {
+                      left: '31px'
+                  },
+              }}
         >
             <Box width="auto" display="flex" justifyContent="center" p="13px">
                 <Text fontSize="15px"

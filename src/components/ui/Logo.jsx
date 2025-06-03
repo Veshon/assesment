@@ -15,9 +15,10 @@ const Logo = () => {
             position="absolute"
             left="31px"
             top="29px"
-            display="flex"
+            // display="flex"
             alignItems="center"
             justifyContent="center"
+            display={{base: "flex", sm: "none", md: "flex" , lg: "flex"}}
         >
 
             <Text

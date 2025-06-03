@@ -18,14 +18,23 @@ const ActiveUsers = () => {
 
     return (
         <Box
-            width="364px"
+            width="344px"
             height="779px"
             position="absolute"
-            top="309px"
-            right="31px"
+            // top="309px"
+            // right="31px"
             borderRadius="50px"
             bg="rgba(248, 248, 239, 0.6)"
             p="30px"
+            display={{base: "block", sm: "block", md: "block" , lg: "block"}}
+            top={{base: "309px", sm: "1100px", md: "1109px", lg: "309px"}}
+            right={{base: "31px", sm: "100px", md: "31px", lg: "11px"}}
+            css={{
+                '@media (min-width: 1440px)': {
+                    width: "364px",
+                    right: '31px'
+                },
+            }}
         >
             <Flex justify="space-between" mb="40px">
                 <Text

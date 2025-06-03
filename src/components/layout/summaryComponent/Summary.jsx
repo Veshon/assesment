@@ -99,14 +99,23 @@ const Summary = () => {
 
     return (
         <Box
-            width="482px"
+            width="478px"
             height="261px"
             position="absolute"
-            top="827px"
-            left="554px"
+            // top="827px"
+            // left="554px"
             borderRadius="50px"
             bg="rgba(248, 248, 239, 0.6)"
             p={5}
+            display={{base: "block", sm:"none", md: "block"}}
+            top={{base: "827px", sm: "827px"}}
+            left={{base: "827px", sm: "550px", lg: "527px"}}
+            css={{
+                '@media (min-width: 1440px)': {
+                    left: '554px',
+                    width: '482px',
+                },
+            }}
         >
             <Bar data={data} options={options} />
         </Box>
