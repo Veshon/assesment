@@ -36,6 +36,9 @@ const ActiveUsers = () => {
                 },
                 '@media (min-width: 1366px)': {
                     width: '324px',
+                },'@media (min-width: 1520px)': {
+                    width: '324px',
+                    right: '550px'
                 },
             }}
         >

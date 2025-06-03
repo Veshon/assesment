@@ -14,6 +14,11 @@ const Navbar = () => {
              alignItems="center"
              justifyContent="space-between"
              px={4}
+             css={{
+                 '@media (min-width: 1520px)': {
+                     right: '640px'
+                 }
+             }}
         >
 
             {/* Dashboard btn */}

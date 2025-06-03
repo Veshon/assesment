@@ -11,6 +11,11 @@ const status = () => {
           // top="139px"
           right="31px"
           top={{base: "139px", sm: "200px", md: "161px" , lg: "161px"}}
+          css={{
+              '@media (min-width: 1520px)': {
+                  right: '550px'
+              }
+          }}
      >
          {/* 3 Sub boxes */}
          <Flex
