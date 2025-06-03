@@ -34,6 +34,9 @@ const ActiveUsers = () => {
                     width: "364px",
                     right: '31px'
                 },
+                '@media (min-width: 1366px)': {
+                    width: '324px',
+                },
             }}
         >
             <Flex justify="space-between" mb="40px">

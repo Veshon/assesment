@@ -19,7 +19,12 @@ const UserTracker = () => {
                  left={{base: "309px", sm: "10px", md: "309px" , lg: "280px"}}
                  css={{
                      '@media (min-width: 1440px)': {
+                         width:'728px',
                          left: '309px'
+                     },
+                     '@media (min-width: 1366px)': {
+                         width: '700px',
+                         left: '297px'
                      },
                  }}
             >
