@@ -11,10 +11,12 @@ const Background = () => {
             w={{md:"125vw"}}
             css={{
                 '@media (min-width: 1440px)': {
-                    height: '160vh',
+                    height: '150vh',
+                    width: '100vw'
                 },
                 '@media (min-width: 1366px)': {
-                    height: '275vh',
+                    height: '257vh',
+                    width: '100vw'
                 },
             }}
         >
