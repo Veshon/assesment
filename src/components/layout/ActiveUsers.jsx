@@ -38,7 +38,7 @@ const ActiveUsers = () => {
                     width: '324px',
                 },'@media (min-width: 1520px)': {
                     width: '324px',
-                    right: '550px'
+                    left: '1050px'
                 },
             }}
         >

@@ -13,7 +13,7 @@ const status = () => {
           top={{base: "139px", sm: "200px", md: "161px" , lg: "161px"}}
           css={{
               '@media (min-width: 1520px)': {
-                  right: '550px'
+                  left: '830px'
               }
           }}
      >

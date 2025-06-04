@@ -16,7 +16,7 @@ const Navbar = () => {
              px={4}
              css={{
                  '@media (min-width: 1520px)': {
-                     right: '640px'
+                     left: '700px'
                  }
              }}
         >
