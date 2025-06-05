@@ -109,7 +109,7 @@ const Summary = () => {
             p={5}
             display={{base: "block", sm:"none", md: "block"}}
             top={{base: "827px", sm: "827px"}}
-            left={{base: "827px", sm: "550px", lg: "527px"}}
+            left={{base: "827px", sm: "550px", lg: "527px", md: "523px"}}
             css={{
                 '@media (min-width: 1440px)': {
                     left: '554px',

@@ -8,7 +8,8 @@ import user6 from "../assets/images/user6.png";
 
 const UserTracker = () => {
     return (
-            <Box width="728px"
+            <Box
+                 // width="728px"
                  height="419px"
                  position="absolute"
                  top="309px"
@@ -16,7 +17,8 @@ const UserTracker = () => {
                  right="425.5px"
                  borderRadius="50px"
                  bg="rgba(248, 248, 239, 0.6)"
-                 left={{base: "309px", sm: "10px", md: "309px" , lg: "280px"}}
+                 width={{base:"728px", sm:"650px", md:"728px", lg:"728px"}}
+                 left={{base: "309px", sm: "10px", md: "280px" , lg: "280px"}}
                  css={{
                      '@media (min-width: 1440px)': {
                          width:'728px',
@@ -146,6 +148,7 @@ const UserTracker = () => {
                                      top="5px"
                                      left="120px"
                                      backgroundImage={`url(${user1})`}
+                                     aria-label="User Profile Pic"
                                      backgroundSize="cover"
                                      borderRadius="100%"
                                      backgroundRepeat="no-repeat"
@@ -159,6 +162,7 @@ const UserTracker = () => {
                                      top="5px"
                                      left="145px"
                                      backgroundImage={`url(${user2})`}
+                                     aria-label="User Profile Pic"
                                      backgroundSize="cover"
                                      borderRadius="100%"
                                      backgroundRepeat="no-repeat"
@@ -172,6 +176,7 @@ const UserTracker = () => {
                                      top="5px"
                                      left="165px"
                                      backgroundImage={`url(${user3})`}
+                                     aria-label="User Profile Pic"
                                      backgroundSize="cover"
                                      borderRadius="100%"
                                      backgroundRepeat="no-repeat"

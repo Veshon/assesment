@@ -17,7 +17,7 @@ const DailyLogins = () => {
         p={3}
         pl={5}
         display={{base: "block", md: "block", lg: "block", sm: "none"}}
-        left={{base: "723px", lg: "700px"}}
+        left={{base: "723px", lg: "700px", md: "690px"}}
         css={{
             '@media (min-width: 1440px)': {
                 left: '723px',

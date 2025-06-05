@@ -3,7 +3,8 @@ import loggedUser from "../assets/images/loggedUser.png";
 
 const UserComponent = () => {
     return (
-        <Box width="270px"
+        <Box
+             width="270px"
              height="417px"
              position="absolute"
              top="311px"
@@ -11,6 +12,7 @@ const UserComponent = () => {
              borderRadius="50px"
              bg="#F8F8EF"
              backgroundImage={`url(${loggedUser})`}
+             aria-label="User Profile Picture"
              backgroundSize="cover"
              backgroundPosition="center"
              backgroundRepeat="no-repeat"
@@ -18,7 +20,7 @@ const UserComponent = () => {
              justifyContent="center"
              pl="5px"
              display={{base: "block", sm: "none", md: "block" , lg: "block"}}
-             left={{base: "31px", lg: "11px"}}
+             left={{base: "31px", lg: "11px", md: "5px"}}
              css={{
                  '@media (min-width: 1440px)': {
                      left: '31px'

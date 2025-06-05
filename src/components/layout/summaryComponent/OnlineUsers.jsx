@@ -17,7 +17,7 @@ const OnlineUsers = () => {
         p={3}
         pl={5}
         display={{base: "block", md: "block", lg: "block", sm: "none"}}
-        left={{base: "555px", lg: "527px"}}
+        left={{base: "555px", lg: "527px", md:"523px"}}
         css={{
             '@media (min-width: 1440px)': {
                 left: '555px',

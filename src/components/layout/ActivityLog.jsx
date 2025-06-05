@@ -5,7 +5,8 @@ import profilePic3 from "../assets/images/profilePic3.png";
 
 const ActivityLog = () => {
     return (
-        <Flex width="514px"
+        <Flex
+              width="514px"
               height="348px"
               position="absolute"
               top="740px"
@@ -13,7 +14,7 @@ const ActivityLog = () => {
               borderRadius="50px"
               bg="rgba(248, 248, 239, 0.6)"
               flexDirection="column"
-              left={{base: "31px", lg: "11px"}}
+              left={{base: "31px", lg: "11px", md: "5px"}}
               css={{
                   '@media (min-width: 1440px)': {
                       left: '31px'
@@ -21,7 +22,8 @@ const ActivityLog = () => {
               }}
         >
             <Box width="auto" display="flex" justifyContent="center" p="13px">
-                <Text fontSize="15px"
+                <Text
+                      fontSize="15px"
                       fontFamily="Mulish"
                       fontWeight="semibold"
                       color="black"

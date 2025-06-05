@@ -17,7 +17,7 @@ const Permissions = () => {
         p={3}
         pl={5}
         display={{base: "block", md: "block", lg: "block", sm: "none"}}
-        left={{base: "900px", lg: "870px"}}
+        left={{base: "900px", lg: "870px", md: "860px"}}
         css={{
             '@media (min-width: 1440px)': {
                 left: '900px',
